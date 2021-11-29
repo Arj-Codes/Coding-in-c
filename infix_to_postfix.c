@@ -28,7 +28,7 @@ void show(){
     printf("Element %d of stack is %d : ",i,top->data);
     printf("\n");
     i++;
-    top=top->link;
+    top=top->link;// this is to check
   }
 }
 
